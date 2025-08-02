@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Timer",
-    "slug": "Timer",
-    "version": "1.0.0",
+    "slug": "focus",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,17 +13,38 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abvii.timer"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.abvii.timer",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "runtimeVersion": "1.0.1",
+    "owner": "abvii",
+    "extra": {
+      "eas": {
+        "projectId": "4d541679-5787-445c-92ef-eff00e6a47da"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4d541679-5787-445c-92ef-eff00e6a47da"
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
   }
 }
