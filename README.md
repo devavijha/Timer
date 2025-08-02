@@ -2,39 +2,39 @@
 
 A comprehensive React Native Expo application designed for task management, habit tracking, meditation, and productivity enhancement. Built with modern UI/UX principles and featuring a clean, intuitive design.
 
-## 🚀 Features
+## Features
 
-### ✅ Task Management
+### Task Management
 - **Categorized Task Boards**: Create custom categories (Groceries, Work, Inspiration, etc.)
 - **Interactive Task Lists**: Add, edit, check off, and delete tasks
 - **Progress Tracking**: Visual progress indicators for each category
 - **Real-time Updates**: Immediate UI feedback for all interactions
 
-### 🎯 Habit Tracking
+###  Habit Tracking
 - **Daily Habit Management**: Track habits like "Drink Water", "Exercise", "Meditate"
 - **Streak Tracking**: Current streak and longest streak statistics
 - **Calendar Integration**: Visual calendar showing completed habit days
 - **Progress Visualization**: Weekly and monthly progress charts
 
-### 🧘 Meditation & Wellness
+###  Meditation & Wellness
 - **Guided Sessions**: Multiple meditation types (breathing, relaxation, focus)
 - **Timer Functionality**: Customizable meditation timers with visual feedback
 - **Mood Selection**: Choose sessions based on current mood or needs
 - **Session Library**: Various sessions for different purposes and durations
 
-### 📊 Progress Analytics
+###  Progress Analytics
 - **Weekly Progress**: Visual progress cards for goals and habits
 - **Goal Setting**: Set and track personal goals with progress percentages
 - **Calendar View**: Month view with habit completion markers
 - **Statistics Dashboard**: Comprehensive overview of achievements
 
-### 👤 User Experience
+### User Experience
 - **Onboarding Flow**: Friendly welcome screens with illustrations
 - **Personalized Dashboard**: Greeting messages and personalized content
 - **Modern UI**: Clean design with smooth animations and transitions
 - **Responsive Design**: Optimized for different screen sizes
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 - **Framework**: React Native with Expo
 - **Language**: TypeScript
@@ -44,7 +44,7 @@ A comprehensive React Native Expo application designed for task management, habi
 - **Styling**: React Native StyleSheet with Linear Gradients
 - **Persistence**: AsyncStorage for local data
 
-## 📱 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -82,7 +82,7 @@ A comprehensive React Native Expo application designed for task management, habi
 - `npm run ios` - Run on iOS simulator
 - `npm run web` - Run in web browser
 
-## 🎨 Design System
+##  Design System
 
 ### Color Palette
 - **Primary**: #4ECDC4 (Teal)
@@ -96,7 +96,7 @@ A comprehensive React Native Expo application designed for task management, habi
 - **Body Text**: Regular, medium gray (#7F8C8D)
 - **Accent Text**: Various theme colors
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -125,7 +125,7 @@ src/
 └── App.tsx           # Main application component
 ```
 
-## 🔧 Key Components
+##  Key Components
 
 ### Navigation
 - **Bottom Tab Navigation**: Home, Tasks, Habits, Meditation, Progress, Calendar, Profile
@@ -143,7 +143,7 @@ src/
 - **Loading States**: Proper loading and error state handling
 - **Accessibility**: ARIA labels and accessible navigation
 
-## 📊 Data Models
+##  Data Models
 
 ### Tasks
 - Categories with custom colors and names
@@ -165,7 +165,7 @@ src/
 - Timers with customizable durations
 - Session history and progress tracking
 
-## 🚀 Getting Started for Development
+##  Getting Started for Development
 
 1. **Set up your development environment**:
    - Install Node.js and npm
@@ -184,7 +184,7 @@ src/
    - Run on Android emulator: `npm run android`
    - Run in web browser: `npm run web`
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - **Push Notifications**: Habit reminders and motivational messages
 - **Social Features**: Share progress with friends and family
@@ -194,18 +194,16 @@ src/
 - **Advanced Analytics**: Detailed insights and trends
 - **Integrations**: Connect with fitness trackers and calendars
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions, please create an issue in the repository.
 
 ---
-
-Built with ❤️ using React Native and Expo
