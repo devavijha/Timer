@@ -38,7 +38,7 @@ const { width } = Dimensions.get('window');
 const FITBIT_CLIENT_ID = 'YOUR_FITBIT_CLIENT_ID'; // TODO: Replace with your Fitbit app client ID
 const FITBIT_REDIRECT_URI = 'YOUR_APP_SCHEME://fitbit'; // TODO: Replace with your app's redirect URI (must match Fitbit app settings)
 
-const GEMINI_API_KEY = 'AIzaSyAMvLbVErhysEjv7cv0omsOXLpUqVkb2h8';
+const GEMINI_API_KEY = 'Get your API key here!';
 
 const ProgressScreen: React.FC = () => {
   // Redux, navigation, and helpers
